@@ -28,6 +28,17 @@
 - 响应式设计
 - 本地数据存储
 
+### [餐厅点餐系统](./restaurant-order-system/)
+一个功能完善、界面友好的餐厅数字化点餐系统，为顾客提供便捷的自助点餐体验，同时为餐厅提供高效的订单管理功能。
+
+- 分类浏览菜单（开胃菜、主菜、甜品、饮品）
+- 显示菜品名称、价格、详细描述
+- 支持菜品数量调整
+- 实时计算订单总额
+- 桌号登记与人数统计
+- 订单管理和提交功能
+- 响应式设计，适配多设备
+
 ## 项目结构
 
 ```
@@ -41,6 +52,15 @@ ai-workspace/
 │   ├── README.md
 │   └── ...
 ├── memo-system/        # 备忘录管理系统
+│   ├── index.html
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── main.js
+│   ├── images/
+│   ├── README.md
+│   └── ...
+├── restaurant-order-system/  # 餐厅点餐系统
 │   ├── index.html
 │   ├── css/
 │   │   └── style.css
@@ -63,6 +83,7 @@ ai-workspace/
 - 项目主页: https://thisisronnyliu.github.io/ai-workspace/
 - Todo List 应用: https://thisisronnyliu.github.io/ai-workspace/todo-list-app/
 - 备忘录管理系统: https://thisisronnyliu.github.io/ai-workspace/memo-system/
+- 餐厅点餐系统: https://thisisronnyliu.github.io/ai-workspace/restaurant-order-system/
 
 ## 许可证
 

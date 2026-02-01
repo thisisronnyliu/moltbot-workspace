@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>啾啾智能餐厅点餐系统</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🍽️ 啾啾智能餐厅点餐系统</h1>
+            <p>便捷、高效的数字化点餐解决方案</p>
+        </header>
+        
+        <div class="main-content">
+            <div class="menu-section">
+                <h2>📋 菜单</h2>
+                <div class="category-tabs">
+                    <button class="category-btn active" data-category="all">全部</button>
+                    <button class="category-btn" data-category="appetizer">开胃菜</button>
+                    <button class="category-btn" data-category="main">主菜</button>
+                    <button class="category-btn" data-category="dessert">甜品</button>
+                    <button class="category-btn" data-category="drink">饮品</button>
+                </div>
+                <div class="menu-items" id="menuItems">
+                    <!-- Menu items will be added here dynamically -->
+                </div>
+            </div>
+            
+            <div class="order-section">
+                <h2>🛒 当前订单</h2>
+                <div class="order-info">
+                    <div class="table-number">
+                        <label for="tableNumber">桌号:</label>
+                        <input type="number" id="tableNumber" min="1" value="1">
+                    </div>
+                    <div class="customer-count">
+                        <label for="customerCount">人数:</label>
+                        <input type="number" id="customerCount" min="1" value="2">
+                    </div>
+                </div>
+                <ul class="order-list" id="orderList">
+                    <!-- Order items will be added here dynamically -->
+                </ul>
+                <div class="order-total">
+                    <strong>总计: ¥<span id="totalAmount">0.00</span></strong>
+                </div>
+                <div class="order-actions">
+                    <button id="clearOrderBtn" class="btn-secondary">清空订单</button>
+                    <button id="submitOrderBtn" class="btn-primary">提交订单</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="notification" id="notification">
+            <span id="notificationText"></span>
+        </div>
+    </div>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
