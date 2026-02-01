@@ -1,6 +1,6 @@
-# 啾啾项目开发空间
+# 啾啾项目仓库
 
-欢迎来到 啾啾 项目开发空间！这里存放着所有通过 啾啾 构建的项目。
+欢迎来到 啾啾 项目仓库！这里存放着所有通过 啾啾 构建的项目。
 
 ## 项目列表
 
@@ -20,19 +20,26 @@
 
 ```
 ai-workspace/
-├── index.html          # 工作空间主页
-├── README.md           # 项目说明
+├── index.html          # 项目汇总主页
+├── README.md           # 全部项目的说明
 ├── todo-list-app/      # Todo List 应用
 │   ├── index.html
 │   ├── styles.css
 │   ├── script.js
 │   ├── README.md
 │   └── ...
+├── xxx-app/      # xxx 应用
 ```
+
+## 说明
+
+- 从项目结构中可以看出，该仓库可包含多个项目应用
+- 每个项目应用目录必须存放于根目录下，相互独立、互不影响
+- 最后由根目录下的 `index.html` 、 `README.md` 将各项目应用进行汇总说明
 
 ## 访问地址
 
-- 工作空间主页: https://thisisronnyliu.github.io/ai-workspace/
+- 项目主页: https://thisisronnyliu.github.io/ai-workspace/
 - Todo List 应用: https://thisisronnyliu.github.io/ai-workspace/todo-list-app/
 
 ## 许可证
