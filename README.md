@@ -1,6 +1,6 @@
-# 啾啾工作空间
+# 啾啾项目开发空间
 
-欢迎来到 啾啾 云端工作空间！这里存放着所有通过 啾啾 创建的项目。
+欢迎来到 啾啾 项目开发空间！这里存放着所有通过 啾啾 构建的项目。
 
 ## 项目列表
 
@@ -19,7 +19,7 @@
 ## 项目结构
 
 ```
-moltbot-workspace/
+ai-workspace/
 ├── index.html          # 工作空间主页
 ├── README.md           # 项目说明
 ├── todo-list-app/      # Todo List 应用
@@ -30,14 +30,10 @@ moltbot-workspace/
 │   └── ...
 ```
 
-## 关于
-
-这个工作空间展示了 啾啾 的项目创建能力。所有项目都是纯前端实现，无需后端服务即可运行。
-
 ## 访问地址
 
-- 工作空间主页: https://thisisronnyliu.github.io/moltbot-workspace/
-- Todo List 应用: https://thisisronnyliu.github.io/moltbot-workspace/todo-list-app/
+- 工作空间主页: https://thisisronnyliu.github.io/ai-workspace/
+- Todo List 应用: https://thisisronnyliu.github.io/ai-workspace/todo-list-app/
 
 ## 许可证
 
