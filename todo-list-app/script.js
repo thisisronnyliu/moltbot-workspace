@@ -28,12 +28,6 @@ class TodoApp {
                 createdAt: new Date().toISOString()
             },
             {
-                id: Date.now() + 1,
-                text: '这个任务展示了工作空间路径已更新至 D:\\moltbot-workspace',
-                completed: false,
-                createdAt: new Date().toISOString()
-            },
-            {
                 id: Date.now() + 2,
                 text: '提醒我喝水',
                 completed: false,
